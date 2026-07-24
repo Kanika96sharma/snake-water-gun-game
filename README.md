@@ -42,3 +42,7 @@ The computer randomly selects one option and the winner is decided based on the 
 ## Screenshot
 
 ![Python 1](screenshot/Game.png)
+
+## Author
+
+**Kanika Sharma**
