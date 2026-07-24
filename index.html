@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Water Gun Game</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+
+        <h1>
+            🐍 Snake Water Gun 🔫
+        </h1>
+
+
+        <form method="POST">
+
+
+            <button name="choice" value="snake">
+                🐍 Snake
+            </button>
+
+
+            <button name="choice" value="water">
+                💧 Water
+            </button>
+
+
+            <button name="choice" value="gun">
+                🔫 Gun
+            </button>
+
+
+        </form>
+
+
+
+        <div class="result">
+
+
+            <h2>
+                {{result}}
+            </h2>
+
+
+            <p>
+                You chose: {{user_choice}}
+            </p>
+
+
+            <p>
+                Computer chose: {{computer_choice}}
+            </p>
+
+
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
